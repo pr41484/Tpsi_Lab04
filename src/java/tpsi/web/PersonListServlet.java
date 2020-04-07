@@ -18,12 +18,12 @@ public class PersonListServlet extends HttpServlet {
             throws ServletException, IOException {
 
         List<Person> osoby = new ArrayList<>();
-        osoby.add(new Person("Jan", "Kowalski", "superfajny@mail.de"));
-        osoby.add(new Person("Aleksander", "Nowak", "mail@gmail.com"));
-        osoby.add(new Person("Helen", "Shaw", "shaw@test.com"));
-        osoby.add(new Person("Madison", "Kitches", "Kleeberg@gmail.com"));
-        osoby.add(new Person("Beau", "Stopford", "BeauStopford@gmail.com"));
-        osoby.add(new Person("Zoe", "Earp", "ZoeEarp@gmail.com"));
+        osoby.add(new Person("Jan", "Kowalski", "jak.kow.wp.pl"));
+        osoby.add(new Person("Marek", "Nowak", "marnow@wp.pl"));
+        osoby.add(new Person("James", "Bond", "JB@JB.JB"));
+        osoby.add(new Person("Jadzka", "Jadzkowska", "jadziuszka@gmail.com"));
+        osoby.add(new Person("Bob", "Marley", "reggaenonstop@gmail.com"));
+        osoby.add(new Person("Staszek", "Stachu", "grozny@wp.pl"));
 
         response.setContentType("text/html;charset=UTF-8");
 
