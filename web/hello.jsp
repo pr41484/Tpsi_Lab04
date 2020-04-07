@@ -12,7 +12,7 @@
         <a href="mailto:${dane.email}">email</a>
         <br>
         <span style='color: pink'>Piotr</span>
-        <script>alert('Jestem zlym hackerem i zaraz cie zjem!');</script> 
+        <script>alert('Uwaga Hacker!');</script> 
         <br>
         <c:forEach items="${dniTygodnia}" var="dzien">
             <p>
