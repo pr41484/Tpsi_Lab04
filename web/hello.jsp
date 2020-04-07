@@ -7,7 +7,7 @@
         <title>Java Web - laboratorium 4</title>
     </head>
     <body>
-        <!-- <h1>Cześć, <c:out value="${dane.firstName}"/> <c:out value="${dane.lastName}"/>!</h1> -->
+        <h1>Cześć, <c:out value="${dane.firstName}"/> <c:out value="${dane.lastName}"/>!</h1> 
         <h1>Cześć, ${dane.firstName} ${dane.lastName} !</h1>
         <br>
         <a href="mailto:${dane.email}">email</a>
